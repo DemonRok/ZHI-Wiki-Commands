@@ -864,15 +864,6 @@
     "status": "active"
   },
   {
-    "command": ".to-do warstatus (statistiche andamento guerra)",
-    "name": "to-do warstatus (statistiche andamento guerra)",
-    "program": null,
-    "params": null,
-    "source": "pkg:association",
-    "description": "Comando player: esegue un’azione lato script.",
-    "status": "active"
-  },
-  {
     "command": ".town",
     "name": "town",
     "program": "textcmd_towninfo",

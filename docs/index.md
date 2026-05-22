@@ -100,7 +100,6 @@ Elenco generato automaticamente dai textcmd player di `poltest`.
 - [strip](commands/strip.md)
 - [t](commands/t.md)
 - [tamingcalc](commands/tamingcalc.md)
-- [to-do warstatus (statistiche andamento guerra)](commands/to-do warstatus (statistiche andamento guerra).md)
 - [town](commands/town.md)
 - [trapbox](commands/trapbox.md)
 - [trapset](commands/trapset.md)

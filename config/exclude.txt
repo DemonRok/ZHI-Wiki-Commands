@@ -8,3 +8,4 @@ aos
 countfocci
 mypiety
 cleric
+to-do warstatus (statistiche andamento guerra)

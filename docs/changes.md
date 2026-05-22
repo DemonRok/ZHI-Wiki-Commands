@@ -1,5 +1,3 @@
 # Changes
 
-## Rimossi
-
-- `.cleric`
+Nessuna variazione rispetto alla generazione precedente.

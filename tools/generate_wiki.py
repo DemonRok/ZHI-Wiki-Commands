@@ -14,7 +14,7 @@ STAFF_MARKERS = (
     ".cmdlevel",
 )
 
-TODO_NAME_RE = re.compile(r"\btodo\b", re.IGNORECASE)
+TODO_NAME_RE = re.compile(r"\b(to[- ]?do|todo)\b", re.IGNORECASE)
 DISMISSED_RE = re.compile(r"\b(dismess[oaie]?|obsolet[oaie]?|deprecated|deprecato|unused|non\s+usare|do\s*not\s*use)\b", re.IGNORECASE)
 
 
