@@ -1,8 +1,8 @@
-# `.Questpoint`
+# `.questpoint`
 
 ## Sintassi
 
-- Comando: `.Questpoint`
+- Comando: `.questpoint`
 
 ## Descrizione
 

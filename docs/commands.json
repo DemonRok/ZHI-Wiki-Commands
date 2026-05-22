@@ -774,8 +774,8 @@
     "status": "active"
   },
   {
-    "command": ".Questpoint",
-    "name": "Questpoint",
+    "command": ".questpoint",
+    "name": "questpoint",
     "program": "QuestPoint",
     "params": "player",
     "source": "pkg:player",

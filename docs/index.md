@@ -90,7 +90,7 @@ Elenco generato automaticamente dai textcmd player di `poltest`.
 - [potion](commands/potion.md)
 - [pray](commands/pray.md)
 - [privacy](commands/privacy.md)
-- [Questpoint](commands/Questpoint.md)
+- [questpoint](commands/questpoint.md)
 - [queststatus](commands/queststatus.md)
 - [racial](commands/racial.md)
 - [racialcolor](commands/racialcolor.md)

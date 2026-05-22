@@ -146,7 +146,7 @@ def scan_player_textcmd(poltest_root: Path) -> list[CommandDoc]:
     docs: list[CommandDoc] = []
     for source, player_dir in roots:
         for src_path in sorted(player_dir.glob("*.src")):
-            name = src_path.stem
+            name = src_path.stem.lower()
             raw = src_path.read_text(encoding="utf-8", errors="replace")
 
             raw_no_comments = strip_escript_comments(raw)
@@ -367,6 +367,15 @@ def main() -> None:
         for md_path in commands_dir.glob("*.md"):
             if md_path.name.lower() not in keep_commands:
                 md_path.unlink()
+            elif md_path.name != md_path.name.lower():
+                # Normalizza casing (Windows case-insensitive): rename in 2 step
+                lower_path = md_path.with_name(md_path.name.lower())
+                tmp_path = md_path.with_name(md_path.name + ".tmp_case")
+                if not lower_path.exists():
+                    md_path.rename(lower_path)
+                else:
+                    md_path.rename(tmp_path)
+                    tmp_path.rename(lower_path)
 
     write_file(out_root / "index.md", render_index(filtered))
 
