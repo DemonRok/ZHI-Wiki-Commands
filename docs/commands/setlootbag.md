@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.setlootbag`
-- Parametri script: `who`
-- Entry point: `setlootbag`
-- Fonte: `core`
 
 ## Descrizione
 

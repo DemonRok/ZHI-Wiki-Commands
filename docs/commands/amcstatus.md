@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.amcstatus`
-- Parametri script: `who`
-- Entry point: `textcmd_amcstatus`
-- Fonte: `pkg:player`
 
 ## Descrizione
 

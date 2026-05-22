@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.setrecallpet`
-- Parametri script: `who, text`
-- Entry point: `textcmd_setRecallPet`
-- Fonte: `pkg:skills`
 
 ## Descrizione
 

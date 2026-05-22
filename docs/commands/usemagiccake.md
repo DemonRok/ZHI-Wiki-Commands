@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.usemagiccake`
-- Parametri script: `character, parms`
-- Entry point: `use_magiccake`
-- Fonte: `pkg:skills`
 
 ## Descrizione
 

@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.renamecontainer`
-- Parametri script: `who, newdesc`
-- Entry point: `textcmd_RenameContainer`
-- Fonte: `pkg:items`
 
 ## Descrizione
 

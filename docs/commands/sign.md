@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.sign`
-- Parametri script: `who, text`
-- Entry point: `sign`
-- Fonte: `core`
 
 ## Descrizione
 

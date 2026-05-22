@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.easterstatus`
-- Parametri script: `who`
-- Entry point: `easterstatus`
-- Fonte: `pkg:items`
 
 ## Descrizione
 

@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.stopmusic`
-- Parametri script: `who`
-- Entry point: `textcmd_stopmusic`
-- Fonte: `pkg:Magic`
 
 ## Descrizione
 

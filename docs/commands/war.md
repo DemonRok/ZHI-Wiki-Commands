@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.war`
-- Parametri script: `who`
-- Entry point: `textcmd_war`
-- Fonte: `core`
 
 ## Descrizione
 

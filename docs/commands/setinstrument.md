@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.setinstrument`
-- Parametri script: `who, text`
-- Entry point: `textcmd_setInstrument`
-- Fonte: `pkg:Magic`
 
 ## Descrizione
 

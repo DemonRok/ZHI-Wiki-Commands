@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.bandageself`
-- Parametri script: `character`
-- Entry point: `bandageself`
-- Fonte: `pkg:skills`
 
 ## Descrizione
 

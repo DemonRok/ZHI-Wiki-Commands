@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.sacrifice`
-- Parametri script: `who, text`
-- Entry point: `sacrifice`
-- Fonte: `core`
 
 ## Descrizione
 

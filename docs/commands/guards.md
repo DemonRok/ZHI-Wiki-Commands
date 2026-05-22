@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.guards`
-- Parametri script: `who, text`
-- Entry point: `textcmd_guards`
-- Fonte: `pkg:npc`
 
 ## Descrizione
 

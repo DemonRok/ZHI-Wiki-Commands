@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.rsay`
-- Parametri script: `player, speech`
-- Entry point: `Racial`
-- Fonte: `pkg:player`
 
 ## Descrizione
 

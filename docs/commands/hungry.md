@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.hungry`
-- Parametri script: `who`
-- Entry point: `textcmd_hungry`
-- Fonte: `pkg:skills`
 
 ## Descrizione
 

@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.castspell`
-- Parametri script: `who, text`
-- Entry point: `textcmd_castspell`
-- Fonte: `core`
 
 ## Descrizione
 

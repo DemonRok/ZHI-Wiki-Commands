@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.trapset`
-- Parametri script: `who`
-- Entry point: `trap_set`
-- Fonte: `pkg:combat`
 
 ## Descrizione
 

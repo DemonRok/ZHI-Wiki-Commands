@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.arm`
-- Parametri script: `me, text`
-- Entry point: `textcmd_arm`
-- Fonte: `core`
 
 ## Descrizione
 

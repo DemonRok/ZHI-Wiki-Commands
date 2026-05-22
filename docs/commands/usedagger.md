@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.usedagger`
-- Parametri script: `character`
-- Entry point: `usedagger`
-- Fonte: `core`
 
 ## Descrizione
 

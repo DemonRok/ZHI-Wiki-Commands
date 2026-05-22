@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.magicfish`
-- Parametri script: `who`
-- Entry point: `use_magicfish`
-- Fonte: `pkg:skills`
 
 ## Descrizione
 

@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.recalltotem`
-- Parametri script: `who`
-- Entry point: `textcmd_RecallPlayerTotem`
-- Fonte: `pkg:npc`
 
 ## Descrizione
 

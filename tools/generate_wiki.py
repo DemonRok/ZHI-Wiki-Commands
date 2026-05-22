@@ -196,13 +196,6 @@ def render_command_page(doc: CommandDoc) -> str:
     lines.append("## Sintassi")
     lines.append("")
     lines.append(f"- Comando: `{shown_cmd}`")
-    if doc.params:
-        lines.append(f"- Parametri script: `{doc.params}`")
-    if doc.program:
-        lines.append(f"- Entry point: `{doc.program}`")
-    lines.append(f"- Fonte: `{doc.source}`")
-    if doc.is_old:
-        lines.append("- Stato: `old`")
     lines.append("")
 
     lines.append("## Descrizione")

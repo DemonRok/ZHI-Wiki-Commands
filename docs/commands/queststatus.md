@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.queststatus`
-- Parametri script: `who, parms`
-- Entry point: `questlog`
-- Fonte: `pkg:world`
 
 ## Descrizione
 

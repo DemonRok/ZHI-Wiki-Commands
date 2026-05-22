@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.vote`
-- Parametri script: `player`
-- Entry point: `vote`
-- Fonte: `core`
 
 ## Descrizione
 

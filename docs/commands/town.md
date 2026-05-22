@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.town`
-- Parametri script: `who`
-- Entry point: `textcmd_towninfo`
-- Fonte: `pkg:association`
 
 ## Descrizione
 

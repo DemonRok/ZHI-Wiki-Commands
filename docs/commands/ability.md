@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.ability`
-- Parametri script: `who, ability_name`
-- Entry point: `AbilityBook`
-- Fonte: `pkg:skills`
 
 ## Descrizione
 

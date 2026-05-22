@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.listraces`
-- Parametri script: `who`
-- Entry point: `ListRaces`
-- Fonte: `pkg:skills`
 
 ## Descrizione
 

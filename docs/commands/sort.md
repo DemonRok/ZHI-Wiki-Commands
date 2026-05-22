@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.sort`
-- Parametri script: `who, parms`
-- Entry point: `inventorylist`
-- Fonte: `core`
 
 ## Descrizione
 

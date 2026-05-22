@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.deed`
-- Parametri script: `who, text`
-- Entry point: `deed`
-- Fonte: `core`
 
 ## Descrizione
 

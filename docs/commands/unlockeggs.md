@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.unlockeggs`
-- Parametri script: `who`
-- Entry point: `unlockovo`
-- Fonte: `pkg:items`
 
 ## Descrizione
 

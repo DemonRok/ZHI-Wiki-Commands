@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.personaldata`
-- Parametri script: `oPlayer`
-- Entry point: `password`
-- Fonte: `pkg:login`
 
 ## Descrizione
 

@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.setupskillmessage`
-- Parametri script: `who, op`
-- Entry point: `SetupSkillMessage`
-- Fonte: `pkg:hooks`
 
 ## Descrizione
 

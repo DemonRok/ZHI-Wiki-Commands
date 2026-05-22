@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.autoloop`
-- Parametri script: `who, amount`
-- Entry point: `textcmd_autoloop`
-- Fonte: `core`
 
 ## Descrizione
 

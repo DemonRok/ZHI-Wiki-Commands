@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.strip`
-- Parametri script: `who`
-- Entry point: `Cmd_Strip`
-- Fonte: `core`
 
 ## Descrizione
 

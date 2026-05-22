@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.setcriticalhit`
-- Parametri script: `who, text`
-- Entry point: `textcmd_setCriticalHit`
-- Fonte: `pkg:combat`
 
 ## Descrizione
 

@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.trapbox`
-- Parametri script: `who, text`
-- Entry point: `TrapBox`
-- Fonte: `pkg:skills`
 
 ## Descrizione
 

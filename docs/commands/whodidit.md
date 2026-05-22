@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.whodidit`
-- Parametri script: `who`
-- Entry point: `textcmd_WhoDidIt`
-- Fonte: `core`
 
 ## Descrizione
 

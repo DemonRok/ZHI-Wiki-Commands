@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.dung`
-- Parametri script: `who, text`
-- Entry point: `dungeonnokill`
-- Fonte: `pkg:world`
 
 ## Descrizione
 

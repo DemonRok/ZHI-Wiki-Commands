@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.amckick`
-- Parametri script: `who, text`
-- Entry point: `textcmd_amckick`
-- Fonte: `pkg:player`
 
 ## Descrizione
 

@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.getwaterdecay`
-- Parametri script: `who`
-- Entry point: `txtcmd_getwaterdecay`
-- Fonte: `pkg:npc`
 
 ## Descrizione
 

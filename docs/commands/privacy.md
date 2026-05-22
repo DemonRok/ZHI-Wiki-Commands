@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.privacy`
-- Parametri script: `who, text`
-- Entry point: `toggle_privacy`
-- Fonte: `core`
 
 ## Descrizione
 

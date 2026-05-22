@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.insure`
-- Parametri script: `who`
-- Entry point: `insurance`
-- Fonte: `pkg:player`
 
 ## Descrizione
 

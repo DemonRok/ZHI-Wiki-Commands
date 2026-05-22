@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.warstats`
-- Parametri script: `who`
-- Entry point: `textcmd_warstats`
-- Fonte: `pkg:combat`
 
 ## Descrizione
 

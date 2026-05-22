@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.joinwar`
-- Parametri script: `who, team_name`
-- Entry point: `AssignTeam`
-- Fonte: `pkg:association`
 
 ## Descrizione
 

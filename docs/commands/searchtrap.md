@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.searchtrap`
-- Parametri script: `who, text`
-- Entry point: `SearchTrapFilter`
-- Fonte: `pkg:skills`
 
 ## Descrizione
 

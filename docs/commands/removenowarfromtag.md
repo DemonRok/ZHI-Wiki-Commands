@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.removenowarfromtag`
-- Parametri script: `who`
-- Entry point: `textcmd_RemoveNoWarFromTag`
-- Fonte: `pkg:association`
 
 ## Descrizione
 

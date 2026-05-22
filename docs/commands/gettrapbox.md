@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.gettrapbox`
-- Parametri script: `who, parms`
-- Entry point: `get_trapbox`
-- Fonte: `pkg:combat`
 
 ## Descrizione
 

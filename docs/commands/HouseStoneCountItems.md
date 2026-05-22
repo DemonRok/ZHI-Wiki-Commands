@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.HouseStoneCountItems`
-- Parametri script: `who`
-- Entry point: `textcmd_CountItemsIsCoordsInHouseStoneRange`
-- Fonte: `pkg:possess`
 
 ## Descrizione
 

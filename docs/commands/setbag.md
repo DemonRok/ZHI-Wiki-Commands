@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.setbag`
-- Parametri script: `me`
-- Entry point: `setbag`
-- Fonte: `core`
 
 ## Descrizione
 

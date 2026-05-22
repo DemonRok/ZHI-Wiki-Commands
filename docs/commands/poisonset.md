@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.poisonset`
-- Parametri script: `who`
-- Entry point: `poison_bag`
-- Fonte: `pkg:combat`
 
 ## Descrizione
 

@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.backstab`
-- Parametri script: `who`
-- Entry point: `Backstab`
-- Fonte: `pkg:skills`
 
 ## Descrizione
 

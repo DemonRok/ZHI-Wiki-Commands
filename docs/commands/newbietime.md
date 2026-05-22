@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.newbietime`
-- Parametri script: `who`
-- Entry point: `newbietime`
-- Fonte: `pkg:player`
 
 ## Descrizione
 

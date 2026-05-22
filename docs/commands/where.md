@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.where`
-- Parametri script: `who`
-- Entry point: `textcmd_super_where`
-- Fonte: `core`
 
 ## Descrizione
 

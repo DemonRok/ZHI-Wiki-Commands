@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.peace`
-- Parametri script: `who`
-- Entry point: `textcmd_peace`
-- Fonte: `core`
 
 ## Descrizione
 

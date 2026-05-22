@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.password`
-- Parametri script: `who`
-- Entry point: `textcmd_changeacctpassword`
-- Fonte: `core`
 
 ## Descrizione
 

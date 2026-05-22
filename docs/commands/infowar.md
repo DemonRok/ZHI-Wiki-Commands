@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.infowar`
-- Parametri script: `who`
-- Entry point: `textcmd_infowar`
-- Fonte: `pkg:association`
 
 ## Descrizione
 

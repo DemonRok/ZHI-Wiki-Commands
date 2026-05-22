@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.t`
-- Parametri script: `who, message`
-- Entry point: `Telepaty_communication`
-- Fonte: `pkg:skills`
 
 ## Descrizione
 

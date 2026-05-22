@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.racial`
-- Parametri script: `player`
-- Entry point: `Racial`
-- Fonte: `pkg:player`
 
 ## Descrizione
 

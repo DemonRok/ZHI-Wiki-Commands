@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.screenresolution`
-- Parametri script: `who, text`
-- Entry point: `trap`
-- Fonte: `pkg:combat`
 
 ## Descrizione
 

@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.motd`
-- Parametri script: `who, text`
-- Entry point: `textcmd_motd`
-- Fonte: `pkg:login`
 
 ## Descrizione
 

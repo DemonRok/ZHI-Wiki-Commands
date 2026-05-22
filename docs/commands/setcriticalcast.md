@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.setcriticalcast`
-- Parametri script: `who, text`
-- Entry point: `textcmd_setCriticalCast`
-- Fonte: `pkg:combat`
 
 ## Descrizione
 

@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.email`
-- Parametri script: `who`
-- Entry point: `email`
-- Fonte: `core`
 
 ## Descrizione
 

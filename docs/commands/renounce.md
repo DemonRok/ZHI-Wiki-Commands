@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.renounce`
-- Parametri script: `who`
-- Entry point: `RenounceFlagNew`
-- Fonte: `pkg:player`
 
 ## Descrizione
 

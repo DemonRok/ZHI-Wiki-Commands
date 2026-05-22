@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.resetinstrument`
-- Parametri script: `who`
-- Entry point: `textcmd_resetInstrument`
-- Fonte: `pkg:Magic`
 
 ## Descrizione
 

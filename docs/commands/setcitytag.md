@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.setcitytag`
-- Parametri script: `who`
-- Entry point: `textcmd_SetCityTag`
-- Fonte: `pkg:association`
 
 ## Descrizione
 

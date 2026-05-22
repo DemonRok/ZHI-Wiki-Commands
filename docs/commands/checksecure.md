@@ -3,9 +3,6 @@
 ## Sintassi
 
 - Comando: `.checksecure`
-- Parametri script: `character`
-- Entry point: `textcmd_checksecure`
-- Fonte: `pkg:items`
 
 ## Descrizione
 
