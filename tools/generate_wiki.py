@@ -27,7 +27,6 @@ class CommandDoc:
     src_path: Path
     header_comment: str | None
     source: str
-    is_old: bool = False
 
 
 def read_list(path: Path) -> set[str]:
@@ -90,6 +89,12 @@ def extract_header_comment(text: str) -> str | None:
     return text_out if text_out else None
 
 
+def strip_escript_comments(text: str) -> str:
+    text = re.sub(r"/\*.*?\*/", "", text, flags=re.DOTALL)
+    text = re.sub(r"//.*?$", "", text, flags=re.MULTILINE)
+    return text
+
+
 def strip_author_date(comment: str) -> str:
     # Rimuove righe tipiche "autore + data/email" senza toccare note tecniche.
     out: list[str] = []
@@ -144,7 +149,8 @@ def scan_player_textcmd(poltest_root: Path) -> list[CommandDoc]:
             name = src_path.stem
             raw = src_path.read_text(encoding="utf-8", errors="replace")
 
-            mixed_staff = any(marker in raw for marker in STAFF_MARKERS)
+            raw_no_comments = strip_escript_comments(raw)
+            mixed_staff = any(marker in raw_no_comments for marker in STAFF_MARKERS)
 
             program = None
             params = None
@@ -190,7 +196,7 @@ def md_escape(text: str) -> str:
 
 
 def render_command_page(doc: CommandDoc) -> str:
-    shown_cmd = f".old {doc.name}" if doc.is_old else f".{doc.name}"
+    shown_cmd = f".{doc.name}"
     title = f"`{shown_cmd}`"
     lines: list[str] = [f"# {title}", ""]
     lines.append("## Sintassi")
@@ -216,17 +222,8 @@ def render_index(pages: list[CommandDoc]) -> str:
         "## Indice",
         "",
     ]
-    current = [d for d in pages if not d.is_old]
-    old = [d for d in pages if d.is_old]
-
-    for doc in current:
+    for doc in pages:
         lines.append(f"- [{doc.name}](commands/{doc.name}.md)")
-    if old:
-        lines.append("")
-        lines.append("## Old")
-        lines.append("")
-        for doc in old:
-            lines.append(f"- [{doc.name}](old/{doc.name}.md)")
     lines.append("")
     return "\n".join(lines)
 
@@ -341,27 +338,17 @@ def main() -> None:
         raw = doc.src_path.read_text(encoding="utf-8", errors="replace")
         if DISMISSED_RE.search(raw) or (doc.header_comment and DISMISSED_RE.search(doc.header_comment)):
             continue
+        if doc.name in exclude or key in exclude_l:
+            continue
         if doc.mixed_staff and doc.name not in include_mixed and key not in include_mixed_l:
             continue
         # dedup per nome comando (case-insensitive): preferisci core
-        is_old = doc.name in exclude or key in exclude_l
-        doc2 = CommandDoc(
-            name=doc.name,
-            program=doc.program,
-            params=doc.params,
-            mixed_staff=doc.mixed_staff,
-            src_path=doc.src_path,
-            header_comment=doc.header_comment,
-            source=doc.source,
-            is_old=is_old,
-        )
-
         if key in filtered_map:
             existing = filtered_map[key]
             if existing.source != "core" and doc.source == "core":
-                filtered_map[key] = doc2
+                filtered_map[key] = doc
             continue
-        filtered_map[key] = doc2
+        filtered_map[key] = doc
 
     filtered = sorted(filtered_map.values(), key=lambda d: d.name.lower())
 
@@ -370,14 +357,10 @@ def main() -> None:
 
     # Scrivi pagine
     for doc in filtered:
-        if doc.is_old:
-            write_file(out_root / "old" / f"{doc.name}.md", render_command_page(doc))
-        else:
-            write_file(out_root / "commands" / f"{doc.name}.md", render_command_page(doc))
+        write_file(out_root / "commands" / f"{doc.name}.md", render_command_page(doc))
 
     # Rimuove pagine obsolete (comandi rimossi o esclusi)
-    keep_commands = {f"{d.name}.md".lower() for d in filtered if not d.is_old}
-    keep_old = {f"{d.name}.md".lower() for d in filtered if d.is_old}
+    keep_commands = {f"{d.name}.md".lower() for d in filtered}
 
     commands_dir = out_root / "commands"
     if commands_dir.exists():
@@ -385,17 +368,11 @@ def main() -> None:
             if md_path.name.lower() not in keep_commands:
                 md_path.unlink()
 
-    old_dir = out_root / "old"
-    if old_dir.exists():
-        for md_path in old_dir.glob("*.md"):
-            if md_path.name.lower() not in keep_old:
-                md_path.unlink()
-
     write_file(out_root / "index.md", render_index(filtered))
 
     current_json = [
         {
-            "command": f".old {d.name}" if d.is_old else f".{d.name}",
+            "command": f".{d.name}",
             "name": d.name,
             "program": d.program,
             "params": d.params,
@@ -403,7 +380,7 @@ def main() -> None:
             "description": auto_description(
                 d.name, d.program, d.src_path.read_text(encoding="utf-8", errors="replace")
             ),
-            "status": "old" if d.is_old else "active",
+            "status": "active",
         }
         for d in filtered
     ]

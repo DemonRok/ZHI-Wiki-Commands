@@ -9,6 +9,15 @@
     "status": "active"
   },
   {
+    "command": ".all",
+    "name": "all",
+    "program": "talk_to_all",
+    "params": "who , text",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
     "command": ".amckick",
     "name": "amckick",
     "program": "textcmd_amckick",
@@ -41,6 +50,24 @@
     "program": "textcmd_arm",
     "params": "me, text",
     "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".assignguildkey",
+    "name": "assignguildkey",
+    "program": "AssignGuildKeyLock",
+    "params": "who",
+    "source": "pkg:association",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".auc",
+    "name": "auc",
+    "program": "textcmd_testgump",
+    "params": "who, text",
+    "source": "pkg:npc",
     "description": "Comando player: esegue un’azione lato script.",
     "status": "active"
   },
@@ -81,6 +108,24 @@
     "status": "active"
   },
   {
+    "command": ".barter",
+    "name": "barter",
+    "program": "textcmd_barter",
+    "params": "who,text",
+    "source": "pkg:npc",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".bestteam",
+    "name": "bestteam",
+    "program": "textcmd_bestteam",
+    "params": "who",
+    "source": "pkg:association",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
     "command": ".breeding",
     "name": "breeding",
     "program": "start_mating",
@@ -117,6 +162,15 @@
     "status": "active"
   },
   {
+    "command": ".catapult",
+    "name": "catapult",
+    "program": "catapult",
+    "params": "who, text",
+    "source": "pkg:combat",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
     "command": ".cg",
     "name": "cg",
     "program": "open_ally_guild_gump",
@@ -135,6 +189,15 @@
     "status": "active"
   },
   {
+    "command": ".checktimeditem",
+    "name": "checktimeditem",
+    "program": "VerifyTimedItem",
+    "params": "character",
+    "source": "pkg:system",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
     "command": ".choppa",
     "name": "choppa",
     "program": "textcmd_choppa",
@@ -144,11 +207,56 @@
     "status": "active"
   },
   {
+    "command": ".christmasstatus",
+    "name": "christmasstatus",
+    "program": "christmasstatus",
+    "params": "who",
+    "source": "pkg:items",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".citymsg",
+    "name": "citymsg",
+    "program": "textcmd_citymsg",
+    "params": "who, text",
+    "source": "pkg:association",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".classe",
+    "name": "classe",
+    "program": "textcmd_setclassecmd",
+    "params": "who",
+    "source": "pkg:player",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".consider",
+    "name": "consider",
+    "program": "ConsiderSins",
+    "params": "who",
+    "source": "pkg:player",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
     "command": ".count",
     "name": "count",
     "program": "textcmd_count",
     "params": "me",
     "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".createguildkey",
+    "name": "createguildkey",
+    "program": "CreateGuildKey",
+    "params": "who",
+    "source": "pkg:association",
     "description": "Comando player: esegue un’azione lato script.",
     "status": "active"
   },
@@ -234,6 +342,42 @@
     "status": "active"
   },
   {
+    "command": ".enrollguard",
+    "name": "enrollguard",
+    "program": "textcmd_setguardsspawnpoint",
+    "params": "who",
+    "source": "pkg:association",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".fireguard",
+    "name": "fireguard",
+    "program": "textcmd_FireGuard",
+    "params": "who",
+    "source": "pkg:association",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".flip",
+    "name": "flip",
+    "program": "flip_textcmd",
+    "params": "who",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".fortune",
+    "name": "fortune",
+    "program": "fortune",
+    "params": "who",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
     "command": ".getjailremaining",
     "name": "getjailremaining",
     "program": "GetJailDayRemaining",
@@ -270,6 +414,15 @@
     "status": "active"
   },
   {
+    "command": ".halloweenstatus",
+    "name": "halloweenstatus",
+    "program": "halloweenstatus",
+    "params": "who",
+    "source": "pkg:items",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
     "command": ".help",
     "name": "help",
     "program": "help",
@@ -279,19 +432,19 @@
     "status": "active"
   },
   {
-    "command": ".houseaddz",
-    "name": "houseaddz",
-    "program": "AddZ_onStaticHouses",
-    "params": "who, num_par",
+    "command": ".house",
+    "name": "house",
+    "program": "HouseManagementGump",
+    "params": "user, text := 0",
     "source": "pkg:possess",
     "description": "Comando player: esegue un’azione lato script.",
     "status": "active"
   },
   {
-    "command": ".HouseStoneCountItems",
-    "name": "HouseStoneCountItems",
-    "program": "textcmd_CountItemsIsCoordsInHouseStoneRange",
-    "params": "who",
+    "command": ".houseaddz",
+    "name": "houseaddz",
+    "program": "AddZ_onStaticHouses",
+    "params": "who, num_par",
     "source": "pkg:possess",
     "description": "Comando player: esegue un’azione lato script.",
     "status": "active"
@@ -324,6 +477,24 @@
     "status": "active"
   },
   {
+    "command": ".infoaltar",
+    "name": "infoaltar",
+    "program": "textcmd_infoaltar",
+    "params": "who",
+    "source": "pkg:autospawn",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".infotreasure",
+    "name": "infotreasure",
+    "program": "textcmd_infotreasure",
+    "params": "who",
+    "source": "pkg:autospawn",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
     "command": ".infowar",
     "name": "infowar",
     "program": "textcmd_infowar",
@@ -338,6 +509,15 @@
     "program": "insurance",
     "params": "who",
     "source": "pkg:player",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".inventory",
+    "name": "inventory",
+    "program": "inventorylist",
+    "params": "who, textline",
+    "source": "core",
     "description": "Comando player: esegue un’azione lato script.",
     "status": "active"
   },
@@ -378,6 +558,15 @@
     "status": "active"
   },
   {
+    "command": ".loot",
+    "name": "loot",
+    "program": "looting",
+    "params": "who",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
     "command": ".magicfish",
     "name": "magicfish",
     "program": "use_magicfish",
@@ -405,11 +594,38 @@
     "status": "active"
   },
   {
+    "command": ".move",
+    "name": "move",
+    "program": "textcmd_dump",
+    "params": "me",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".msg",
+    "name": "msg",
+    "program": "textcmd_msg",
+    "params": "character, whom",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
     "command": ".newbietime",
     "name": "newbietime",
     "program": "newbietime",
     "params": "who",
     "source": "pkg:player",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".online",
+    "name": "online",
+    "program": "textcmd_online",
+    "params": "who",
+    "source": "core",
     "description": "Comando player: esegue un’azione lato script.",
     "status": "active"
   },
@@ -450,6 +666,15 @@
     "status": "active"
   },
   {
+    "command": ".passdoor",
+    "name": "passdoor",
+    "program": "textcmd_passdoor",
+    "params": "who",
+    "source": "pkg:world",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
     "command": ".password",
     "name": "password",
     "program": "textcmd_changeacctpassword",
@@ -486,6 +711,15 @@
     "status": "active"
   },
   {
+    "command": ".play",
+    "name": "play",
+    "program": "textcmd_play",
+    "params": "who, melodyID",
+    "source": "pkg:Magic",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
     "command": ".playformana",
     "name": "playformana",
     "program": "music",
@@ -513,11 +747,38 @@
     "status": "active"
   },
   {
+    "command": ".potion",
+    "name": "potion",
+    "program": "use_potion",
+    "params": "who, params",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".pray",
+    "name": "pray",
+    "program": "launch_pray",
+    "params": "who, text",
+    "source": "pkg:Magic",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
     "command": ".privacy",
     "name": "privacy",
     "program": "toggle_privacy",
     "params": "who, text",
     "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".Questpoint",
+    "name": "Questpoint",
+    "program": "QuestPoint",
+    "params": "player",
+    "source": "pkg:player",
     "description": "Comando player: esegue un’azione lato script.",
     "status": "active"
   },
@@ -549,6 +810,15 @@
     "status": "active"
   },
   {
+    "command": ".racialskill",
+    "name": "racialskill",
+    "program": "StartRacialSkill",
+    "params": "who, race_name",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
     "command": ".reags",
     "name": "reags",
     "program": "listregs",
@@ -572,6 +842,24 @@
     "program": "textcmd_RecallPlayerTotem",
     "params": "who",
     "source": "pkg:npc",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".redeed",
+    "name": "redeed",
+    "program": "redeed",
+    "params": "who",
+    "source": "pkg:possess",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".redeedboat",
+    "name": "redeedboat",
+    "program": "Redeedboat",
+    "params": "who",
+    "source": "pkg:possess",
     "description": "Comando player: esegue un’azione lato script.",
     "status": "active"
   },
@@ -626,6 +914,15 @@
     "program": "RenounceFlagNew",
     "params": "who",
     "source": "pkg:player",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".reply",
+    "name": "reply",
+    "program": "replymsg",
+    "params": "who, themessage",
+    "source": "core",
     "description": "Comando player: esegue un’azione lato script.",
     "status": "active"
   },
@@ -765,10 +1062,28 @@
     "status": "active"
   },
   {
+    "command": ".shoot",
+    "name": "shoot",
+    "program": "Shoot",
+    "params": "who, parms",
+    "source": "pkg:combat",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
     "command": ".sign",
     "name": "sign",
     "program": "sign",
     "params": "who, text",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".skills",
+    "name": "skills",
+    "program": "skillwindow",
+    "params": "character, parms",
     "source": "core",
     "description": "Comando player: esegue un’azione lato script.",
     "status": "active"
@@ -851,6 +1166,15 @@
     "program": "textcmd_tamingcalc",
     "params": "who",
     "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".tloot",
+    "name": "tloot",
+    "program": "looting",
+    "params": "who",
+    "source": "core",
     "description": "Comando player: esegue un’azione lato script.",
     "status": "active"
   },
@@ -981,11 +1305,29 @@
     "status": "active"
   },
   {
+    "command": ".whereship",
+    "name": "whereship",
+    "program": "textcmd_where",
+    "params": "who",
+    "source": "pkg:possess",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
     "command": ".whodidit",
     "name": "whodidit",
     "program": "textcmd_WhoDidIt",
     "params": "who",
     "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".working",
+    "name": "working",
+    "program": "working",
+    "params": "who",
+    "source": "pkg:staff",
     "description": "Comando player: esegue un’azione lato script.",
     "status": "active"
   }

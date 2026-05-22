@@ -9,3 +9,7 @@ countfocci
 mypiety
 cleric
 to-do warstatus (statistiche andamento guerra)
+getwaterdecay
+restorecmd
+classe_mod
+HouseStoneCountItems

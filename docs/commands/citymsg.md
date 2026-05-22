@@ -1,8 +1,8 @@
-# `.HouseStoneCountItems`
+# `.citymsg`
 
 ## Sintassi
 
-- Comando: `.HouseStoneCountItems`
+- Comando: `.citymsg`
 
 ## Descrizione
 
