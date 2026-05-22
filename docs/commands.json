@@ -261,15 +261,6 @@
     "status": "active"
   },
   {
-    "command": ".getwaterdecay",
-    "name": "getwaterdecay",
-    "program": "txtcmd_getwaterdecay",
-    "params": "who",
-    "source": "pkg:npc",
-    "description": "Comando player: esegue un’azione lato script.",
-    "status": "active"
-  },
-  {
     "command": ".guards",
     "name": "guards",
     "program": "textcmd_guards",

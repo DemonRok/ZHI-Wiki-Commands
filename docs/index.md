@@ -33,7 +33,6 @@ Elenco generato automaticamente dai textcmd player di `poltest`.
 - [getjailremaining](commands/getjailremaining.md)
 - [getrespawnaltar](commands/getrespawnaltar.md)
 - [gettrapbox](commands/gettrapbox.md)
-- [getwaterdecay](commands/getwaterdecay.md)
 - [guards](commands/guards.md)
 - [help](commands/help.md)
 - [houseaddz](commands/houseaddz.md)
