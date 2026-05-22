@@ -1,0 +1,10 @@
+# Un comando per riga (nome file senza estensione) da ESCLUDERE sempre.
+icq
+zhilogon
+automap
+teamspeak
+warstatus
+aos
+countfocci
+mypiety
+cleric

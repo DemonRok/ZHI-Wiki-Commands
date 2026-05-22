@@ -1,0 +1,1010 @@
+[
+  {
+    "command": ".ability",
+    "name": "ability",
+    "program": "AbilityBook",
+    "params": "who, ability_name",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".amckick",
+    "name": "amckick",
+    "program": "textcmd_amckick",
+    "params": "who, text",
+    "source": "pkg:player",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".amcstatus",
+    "name": "amcstatus",
+    "program": "textcmd_amcstatus",
+    "params": "who",
+    "source": "pkg:player",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".amisafe",
+    "name": "amisafe",
+    "program": "textcmd_safe",
+    "params": "who",
+    "source": "pkg:association",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".arm",
+    "name": "arm",
+    "program": "textcmd_arm",
+    "params": "me, text",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".autoloop",
+    "name": "autoloop",
+    "program": "textcmd_autoloop",
+    "params": "who, amount",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".backstab",
+    "name": "backstab",
+    "program": "Backstab",
+    "params": "who",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".bandage",
+    "name": "bandage",
+    "program": "use_bandages",
+    "params": "character, text",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".bandageself",
+    "name": "bandageself",
+    "program": "bandageself",
+    "params": "character",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".breeding",
+    "name": "breeding",
+    "program": "start_mating",
+    "params": "who",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".c",
+    "name": "c",
+    "program": "use_guild_chat",
+    "params": "who,text",
+    "source": "pkg:association",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".ca",
+    "name": "ca",
+    "program": "use_guild_chat",
+    "params": "who,text",
+    "source": "pkg:association",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".castspell",
+    "name": "castspell",
+    "program": "textcmd_castspell",
+    "params": "who, text",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".cg",
+    "name": "cg",
+    "program": "open_ally_guild_gump",
+    "params": "who",
+    "source": "pkg:association",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".checksecure",
+    "name": "checksecure",
+    "program": "textcmd_checksecure",
+    "params": "character",
+    "source": "pkg:items",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".choppa",
+    "name": "choppa",
+    "program": "textcmd_choppa",
+    "params": "who, text",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".count",
+    "name": "count",
+    "program": "textcmd_count",
+    "params": "me",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".date",
+    "name": "date",
+    "program": "date",
+    "params": "oPlayer",
+    "source": "pkg:system",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".deed",
+    "name": "deed",
+    "program": "deed",
+    "params": "who, text",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".disarm",
+    "name": "disarm",
+    "program": "textcmd_disarm",
+    "params": "me, text",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".door",
+    "name": "door",
+    "program": "textcmd_door",
+    "params": "character",
+    "source": "pkg:world",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".dung",
+    "name": "dung",
+    "program": "dungeonnokill",
+    "params": "who, text",
+    "source": "pkg:world",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".easterstatus",
+    "name": "easterstatus",
+    "program": "easterstatus",
+    "params": "who",
+    "source": "pkg:items",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".email",
+    "name": "email",
+    "program": "email",
+    "params": "who",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".emote",
+    "name": "emote",
+    "program": "emote",
+    "params": "who, emote",
+    "source": "pkg:system",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".empty",
+    "name": "empty",
+    "program": "empty",
+    "params": "character, parms",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".getjailremaining",
+    "name": "getjailremaining",
+    "program": "GetJailDayRemaining",
+    "params": "oPlayer",
+    "source": "pkg:system",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".getrespawnaltar",
+    "name": "getrespawnaltar",
+    "program": "textcmd_getrespawnaltar",
+    "params": "who",
+    "source": "pkg:autospawn",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".gettrapbox",
+    "name": "gettrapbox",
+    "program": "get_trapbox",
+    "params": "who, parms",
+    "source": "pkg:combat",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".getwaterdecay",
+    "name": "getwaterdecay",
+    "program": "txtcmd_getwaterdecay",
+    "params": "who",
+    "source": "pkg:npc",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".guards",
+    "name": "guards",
+    "program": "textcmd_guards",
+    "params": "who, text",
+    "source": "pkg:npc",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".help",
+    "name": "help",
+    "program": "help",
+    "params": "oPlayer",
+    "source": "pkg:staff",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".houseaddz",
+    "name": "houseaddz",
+    "program": "AddZ_onStaticHouses",
+    "params": "who, num_par",
+    "source": "pkg:possess",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".HouseStoneCountItems",
+    "name": "HouseStoneCountItems",
+    "program": "textcmd_CountItemsIsCoordsInHouseStoneRange",
+    "params": "who",
+    "source": "pkg:possess",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".housesubz",
+    "name": "housesubz",
+    "program": "AddZ_onStaticHouses",
+    "params": "who, num_par",
+    "source": "pkg:possess",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".hungry",
+    "name": "hungry",
+    "program": "textcmd_hungry",
+    "params": "who",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".identify",
+    "name": "identify",
+    "program": "cmd_identify",
+    "params": "character",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".infowar",
+    "name": "infowar",
+    "program": "textcmd_infowar",
+    "params": "who",
+    "source": "pkg:association",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".insure",
+    "name": "insure",
+    "program": "insurance",
+    "params": "who",
+    "source": "pkg:player",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".joinwar",
+    "name": "joinwar",
+    "program": "AssignTeam",
+    "params": "who, team_name",
+    "source": "pkg:association",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".listraces",
+    "name": "listraces",
+    "program": "ListRaces",
+    "params": "who",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".lockitem",
+    "name": "lockitem",
+    "program": "LockItem_onStaticHouses",
+    "params": "who",
+    "source": "pkg:possess",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".lookup",
+    "name": "lookup",
+    "program": "lookup",
+    "params": "who",
+    "source": "pkg:world",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".magicfish",
+    "name": "magicfish",
+    "program": "use_magicfish",
+    "params": "who",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".mina",
+    "name": "mina",
+    "program": "textcmd_mina",
+    "params": "who, text",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".motd",
+    "name": "motd",
+    "program": "textcmd_motd",
+    "params": "who, text",
+    "source": "pkg:login",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".newbietime",
+    "name": "newbietime",
+    "program": "newbietime",
+    "params": "who",
+    "source": "pkg:player",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".openexplode",
+    "name": "openexplode",
+    "program": "itemctrl_pounch_explosive",
+    "params": "who, item",
+    "source": "pkg:items",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".own",
+    "name": "own",
+    "program": "textcmd_own",
+    "params": "me",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".p",
+    "name": "p",
+    "program": "textcmd_Party",
+    "params": "who, msg",
+    "source": "pkg:combat",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".party",
+    "name": "party",
+    "program": "textcmd_Party",
+    "params": "who",
+    "source": "pkg:combat",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".password",
+    "name": "password",
+    "program": "textcmd_changeacctpassword",
+    "params": "who",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".peace",
+    "name": "peace",
+    "program": "textcmd_peace",
+    "params": "who",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".personaldata",
+    "name": "personaldata",
+    "program": "password",
+    "params": "oPlayer",
+    "source": "pkg:login",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".petstats",
+    "name": "petstats",
+    "program": "textcmd_petexpgump",
+    "params": "who",
+    "source": "pkg:combat",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".playformana",
+    "name": "playformana",
+    "program": "music",
+    "params": "character",
+    "source": "pkg:Magic",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".poison",
+    "name": "poison",
+    "program": "textcmd_poison",
+    "params": "character, params",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".poisonset",
+    "name": "poisonset",
+    "program": "poison_bag",
+    "params": "who",
+    "source": "pkg:combat",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".privacy",
+    "name": "privacy",
+    "program": "toggle_privacy",
+    "params": "who, text",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".queststatus",
+    "name": "queststatus",
+    "program": "questlog",
+    "params": "who, parms",
+    "source": "pkg:world",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".racial",
+    "name": "racial",
+    "program": "Racial",
+    "params": "player",
+    "source": "pkg:player",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".racialcolor",
+    "name": "racialcolor",
+    "program": "RacialColor",
+    "params": "player",
+    "source": "pkg:player",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".reags",
+    "name": "reags",
+    "program": "listregs",
+    "params": "me",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".recallpet",
+    "name": "recallpet",
+    "program": "textcmd_recallPet",
+    "params": "who",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".recalltotem",
+    "name": "recalltotem",
+    "program": "textcmd_RecallPlayerTotem",
+    "params": "who",
+    "source": "pkg:npc",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".reequip",
+    "name": "reequip",
+    "program": "Cmd_ReEquipItems",
+    "params": "who",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".removejewels",
+    "name": "removejewels",
+    "program": "removejewels",
+    "params": "who",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".removenowarfromtag",
+    "name": "removenowarfromtag",
+    "program": "textcmd_RemoveNoWarFromTag",
+    "params": "who",
+    "source": "pkg:association",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".renamecontainer",
+    "name": "renamecontainer",
+    "program": "textcmd_RenameContainer",
+    "params": "who, newdesc",
+    "source": "pkg:items",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".renbackpack",
+    "name": "renbackpack",
+    "program": "textcmd_AssignNameToBackPack",
+    "params": "who, new_desc",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".renounce",
+    "name": "renounce",
+    "program": "RenounceFlagNew",
+    "params": "who",
+    "source": "pkg:player",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".resetinstrument",
+    "name": "resetinstrument",
+    "program": "textcmd_resetInstrument",
+    "params": "who",
+    "source": "pkg:Magic",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".rsay",
+    "name": "rsay",
+    "program": "Racial",
+    "params": "player, speech",
+    "source": "pkg:player",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".sacrifice",
+    "name": "sacrifice",
+    "program": "sacrifice",
+    "params": "who, text",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".saveequip",
+    "name": "saveequip",
+    "program": "Cmd_SaveEquippedItems",
+    "params": "who",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".screenresolution",
+    "name": "screenresolution",
+    "program": "trap",
+    "params": "who, text",
+    "source": "pkg:combat",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".searchtrap",
+    "name": "searchtrap",
+    "program": "SearchTrapFilter",
+    "params": "who, text",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".setbag",
+    "name": "setbag",
+    "program": "setbag",
+    "params": "me",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".setcitytag",
+    "name": "setcitytag",
+    "program": "textcmd_SetCityTag",
+    "params": "who",
+    "source": "pkg:association",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".setcriticalcast",
+    "name": "setcriticalcast",
+    "program": "textcmd_setCriticalCast",
+    "params": "who, text",
+    "source": "pkg:combat",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".setcriticalhit",
+    "name": "setcriticalhit",
+    "program": "textcmd_setCriticalHit",
+    "params": "who, text",
+    "source": "pkg:combat",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".setinstrument",
+    "name": "setinstrument",
+    "program": "textcmd_setInstrument",
+    "params": "who, text",
+    "source": "pkg:Magic",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".setlanguage",
+    "name": "setlanguage",
+    "program": "get_language",
+    "params": "who, pars",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".setlootbag",
+    "name": "setlootbag",
+    "program": "setlootbag",
+    "params": "who",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".setrecallpet",
+    "name": "setrecallpet",
+    "program": "textcmd_setRecallPet",
+    "params": "who, text",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".setupskillmessage",
+    "name": "setupskillmessage",
+    "program": "SetupSkillMessage",
+    "params": "who, op",
+    "source": "pkg:hooks",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".sign",
+    "name": "sign",
+    "program": "sign",
+    "params": "who, text",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".snipershot",
+    "name": "snipershot",
+    "program": "SniperShot",
+    "params": "who",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".sort",
+    "name": "sort",
+    "program": "inventorylist",
+    "params": "who, parms",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".stopmantaincupola",
+    "name": "stopmantaincupola",
+    "program": "stop_mantain",
+    "params": "who",
+    "source": "pkg:Magic",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".stopmantainsummon",
+    "name": "stopmantainsummon",
+    "program": "stop_mantain",
+    "params": "who",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".stopmusic",
+    "name": "stopmusic",
+    "program": "textcmd_stopmusic",
+    "params": "who",
+    "source": "pkg:Magic",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".stoppray",
+    "name": "stoppray",
+    "program": "stop_pray",
+    "params": "who",
+    "source": "pkg:Magic",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".strip",
+    "name": "strip",
+    "program": "Cmd_Strip",
+    "params": "who",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".t",
+    "name": "t",
+    "program": "Telepaty_communication",
+    "params": "who, message",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".tamingcalc",
+    "name": "tamingcalc",
+    "program": "textcmd_tamingcalc",
+    "params": "who",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".to-do warstatus (statistiche andamento guerra)",
+    "name": "to-do warstatus (statistiche andamento guerra)",
+    "program": null,
+    "params": null,
+    "source": "pkg:association",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".town",
+    "name": "town",
+    "program": "textcmd_towninfo",
+    "params": "who",
+    "source": "pkg:association",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".trapbox",
+    "name": "trapbox",
+    "program": "TrapBox",
+    "params": "who, text",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".trapset",
+    "name": "trapset",
+    "program": "trap_set",
+    "params": "who",
+    "source": "pkg:combat",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".unlockeggs",
+    "name": "unlockeggs",
+    "program": "unlockovo",
+    "params": "who",
+    "source": "pkg:items",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".unlockgem",
+    "name": "unlockgem",
+    "program": "unlockgem",
+    "params": "who",
+    "source": "pkg:items",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".unlockitem",
+    "name": "unlockitem",
+    "program": "UnLockItem_onStaticHouses",
+    "params": "who",
+    "source": "pkg:possess",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".usedagger",
+    "name": "usedagger",
+    "program": "usedagger",
+    "params": "character",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".useinstrument",
+    "name": "useinstrument",
+    "program": "textcmd_useInstrument",
+    "params": "who, text",
+    "source": "pkg:Magic",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".usemagiccake",
+    "name": "usemagiccake",
+    "program": "use_magiccake",
+    "params": "character, parms",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".usemagicfish",
+    "name": "usemagicfish",
+    "program": "use_magicfish",
+    "params": "character, parms",
+    "source": "pkg:skills",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".vote",
+    "name": "vote",
+    "program": "vote",
+    "params": "player",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".war",
+    "name": "war",
+    "program": "textcmd_war",
+    "params": "who",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".warstats",
+    "name": "warstats",
+    "program": "textcmd_warstats",
+    "params": "who",
+    "source": "pkg:combat",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".where",
+    "name": "where",
+    "program": "textcmd_super_where",
+    "params": "who",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  },
+  {
+    "command": ".whodidit",
+    "name": "whodidit",
+    "program": "textcmd_WhoDidIt",
+    "params": "who",
+    "source": "core",
+    "description": "Comando player: esegue un’azione lato script.",
+    "status": "active"
+  }
+]

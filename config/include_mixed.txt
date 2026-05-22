@@ -1,0 +1,2 @@
+# Un comando per riga (nome file senza estensione) da INCLUDERE anche se contiene logica staff.
+
