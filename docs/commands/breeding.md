@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Permette di ibridare un pet (primo target) con un altro pet (secondo target)
