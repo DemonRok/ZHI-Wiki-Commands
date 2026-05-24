@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Permette di creare la pergamena selezionando la proprio imbarcazione
