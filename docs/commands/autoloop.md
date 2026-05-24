@@ -6,4 +6,5 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Per scegliere la quantità di tentative di creazione items dal minimo (1) a infinito (nostop).
+Esempio: .autoloop 5 oppure autoloop nostop
