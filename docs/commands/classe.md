@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Se classato, visualizza valori delle varie skill e del proprio livello
