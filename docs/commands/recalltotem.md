@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Richiama il proprio totem consumando un minimo quantitative di mana
