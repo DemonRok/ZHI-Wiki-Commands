@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Comando per inizializzare il training di un proprio pet o per visualizzare le skill di un pet già inizializzato.
