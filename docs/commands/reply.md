@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Comando per rispondere direttamente ad un messaggio private ricevuto
