@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Comando necessario per svuotare il contenuto delle pozioni in sequenza
