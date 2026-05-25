@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Permette di assicurare alcuni tipi di items. Ogni volta che si muore, gli item assicurati si ritrovano direttamente nel proprio backpack (newbie items)
