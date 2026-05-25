@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Permette di conoscere lo stato di avanzamento di un altare in corso
