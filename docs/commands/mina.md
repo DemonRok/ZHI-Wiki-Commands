@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Permette di selezionare uno specifico tipo di minerale da estrarre
