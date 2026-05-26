@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Controlla il tempo residuo alla scadenza di un item (item gm o luck)
