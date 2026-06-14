@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Comando player: Seleziona il container dove viene messo l'arsenale associato con il commando apposito (arm/disarm)
