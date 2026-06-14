@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Comando player: Memorizza l'attuale equipaggiamento che si sta indossando
