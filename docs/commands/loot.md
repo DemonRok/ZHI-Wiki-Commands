@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Comando player: Permette di spostare gli item presenti in un cadavere direttamente nella sacca prescelta
