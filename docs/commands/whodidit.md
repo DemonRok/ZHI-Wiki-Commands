@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Comando player: Utili per conoscere chi ha creato un muro magico o simili. 
