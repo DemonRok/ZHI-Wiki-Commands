@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Comando player: Utile per visualizzare i vari item che si stanno trasportando suddivisi per categoria. 
