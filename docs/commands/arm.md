@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Comando player: Equipaggia il set di armi/scudi che è stato salvato. 
