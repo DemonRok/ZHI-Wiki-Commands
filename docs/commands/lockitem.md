@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Comando player: Utile per sbloccare un oggetto nella propria abitazione 
