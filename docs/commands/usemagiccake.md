@@ -6,4 +6,5 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Comando player: Utile per consumare uno specifico tipo di torta magica
+
