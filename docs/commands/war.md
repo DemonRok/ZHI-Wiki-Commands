@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Comando player: utile per passare dallo stato PEACE allo stato WAR
