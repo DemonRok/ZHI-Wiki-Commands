@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Comando player: Necessario per attivare/conoscere il tempo residuo per raccogliere risorse away.
