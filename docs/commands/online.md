@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando per visualizzare i nominivativi dei pg online
+Comando per visualizzare i nominivativi dei giocatori online
