@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Esegue la bendata per curare
+Esegue la bendata per curare se stessi
