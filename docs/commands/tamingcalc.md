@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Comando player: Permette di conoscere I valori necessari e per gestire I vari tipi di pet
