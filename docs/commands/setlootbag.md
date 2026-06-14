@@ -6,4 +6,4 @@
 
 ## Descrizione
 
-Comando player: esegue un’azione lato script.
+Comando player: Seleziona il container dove verranno messi gli item provenienti dal commando .loot
